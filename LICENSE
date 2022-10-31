@@ -1,10 +1,8 @@
 免责声明：TLB-DBpro系统的大部分代码来源于https://www.scpper.com/，同https://www.scpper.com/使用相同许可证（MIT许可证），
 本系统所备份的所有相关作品和文字均在TLB文学创作社区（时间轴书店 维基）创建，除非特别说明，否则都在CC BY-SA 4.0许可下获得.
 
-## 我们学习、借鉴并且使用了ScpperDB的所有数据库，以下是授权信息和链接。
+## 我们学习、借鉴并且修改、使用了ScpperDB的所有数据库，以下是授权信息和链接。
  # Copyright (c) 2016 Alexander Krivopalov - ScpperDB许可证（https://github.com/scpwiki/ScpperDB/blob/master/LICENSE.txt）
- # https://github.com/scpwiki/SCPper/blob/master/LICENSE - SCPper许可证（https://github.com/scpwiki/SCPper/blob/master/LICENSE）
-
 ----
 MIT License
 
