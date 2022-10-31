@@ -1,17 +1,56 @@
-<html>
+<!-- 
+  免责声明：TLB-DBpro系统的大部分代码来源于https://www.scpper.com/，同https://www.scpper.com/使用相同许可证（MIT许可证），
+  本系统所备份的所有相关作品和文字均在TLB文学创作社区（时间轴书店 维基）创建，除非特别说明，否则都在CC BY-SA 4.0许可下获得.
+  =====
+  TLB-DBpro许可证（https://github.com/TimeLine-Bookstore/TLB-DBpro/blob/main/LICENSE）
+  --许可证文本--
+  MIT License
+
+  Copyright (c) 2022 时间轴书店
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+  =====
+  ScpperDB许可证（https://github.com/scpwiki/ScpperDB/blob/master/LICENSE.txt）
+  --许可证文本--
+  The MIT License (MIT)
+
+  Copyright (c) 2016 Alexander Krivopalov
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  =====
+  SCPper许可证（https://github.com/scpwiki/SCPper/blob/master/LICENSE）
+-->
+<html lang="zh">
   <head>
     <title>主页-TLB-DBpro</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Le styles -->
-    <link href="/css/theme.css" media="screen" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="/js/date.format.js"></script>
-    <script type="text/javascript" src="/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/jquery-ui/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="/js/jquery.blockUI.js"></script>
-    <script type="text/javascript" src="/js/tlb-database-pro.js"></script>
+    <!-- style -->
+    <link href="https://www.scpper.com/TLB-DBpro/css/theme.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://www.scpper.com/js/date.format.js"></script>
+    <script type="text/javascript" src="https://www.scpper.com/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.scpper.com/TLB-DBpro/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.scpper.com/TLB-DBpro/js/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://www.scpper.com/TLB-DBpro/js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="https://www.scpper.com/TLB-DBpro/js/tlb-database-pro.js"></script>
     <script type="text/javascript">
         (function () {
         function init()
@@ -34,131 +73,60 @@
     <nav class="navbar navbar-inverse navbar-fixed-top scpper-navbar" role="navigation">
       <div class="navbar-header">
         <a class="navbar-brand" href="/"><img src="https://timeline-bookstore.wdfiles.com/local--files/component%3Atheme/logo-for-tlb-black.png" height="50px">
-            <span class="navbar-header-name">&nbsp;ScpperDB</span>
+            <span class="navbar-header-name">&nbsp;TLB-DBpro</span>
         </a>
-    </div>    
+      </div>    
     <div class="collapse navbar-collapse">      
         <ul class="nav navbar-nav">
-                                                                                <li class="dropdown ">
-                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">Chinese branch <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                                                                                            <li>
-                            <a href="/select-site?siteId=66711">
-                                SCP Foundation                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=169125">
-                                Russian branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=464696">
-                                French branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=486864">
-                                Korean branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=530167">
-                                Italian branch                            </a>
-                        </li>
-                                                                                            <li class="active">
-                            <a href="/select-site?siteId=530812">
-                                Chinese branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=547203">
-                                Thai branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=560484">
-                                Spanish branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=578002">
-                                Japanese branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=647733">
-                                Polish branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=783633">
-                                Portuguese branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=836589">
-                                Vietnamese branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=1269857">
-                                German branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=1398197">
-                                Ukrainian branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=1427610">
-                                SCP International                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=2060442">
-                                Czech branch                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/select-site?siteId=3947998">
-                                Traditional Chinese branch                            </a>
-                        </li>
-                                    </ul>
+          <li class="dropdown ">
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/TLB-DBpro/select-site?siteId=4803609">时间轴书店</a>
+              </li>
+              <li>
+                <a href="/TLB-DBpro/select-site?siteId=4833611">龟神音乐电台</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/member">成员</a>
+          </li>
+          <li class="dropdown ">
+            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/pages/existing">现有</a>
+              </li>
+              <li>
+                <a href="/pages/deleted">删除</a>
+              </li>
+            </ul>
             </li>
-                                                                                                <li>
-                    <a href="/users">
-                        Users                    </a>
-                </li>
-                                                                                            <li class="dropdown ">
-                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                                                                                            <li>
-                            <a href="/pages">
-                                Existing                            </a>
-                        </li>
-                                                                                            <li>
-                            <a href="/pages/deleted">
-                                Deleted                            </a>
-                        </li>
-                                    </ul>
-            </li>
-                                                                                                <li>
-                    <a href="/revisions">
-                        Revisions                    </a>
-                </li>
-                                                                                                <li>
-                    <a href="/votes">
-                        Votes                    </a>
-                </li>
-                                                                                                <li>
-                    <a href="/tags">
-                        Tags                    </a>
-                </li>
-                                                                                                <li>
-                    <a href="/activity">
-                        Activity                    </a>
-                </li>
-                                                                                                <li>
-                    <a href="/about">
-                        About                    </a>
-                </li>
-                            </ul>      
-    </div>
-    <form class="scpper-navbar-search" method="POST" role="search" action="/search">
+          <li>
+            <a href="/revisions">修改</a>
+          </li>
+          <li>
+            <a href="/votes">评分</a>
+          </li>
+          <li>
+            <a href="/tags">标签</a>
+          </li>
+          <li>
+            <a href="/activity">变更</a>
+          </li>
+          <li>
+            <a href="/about">关于</a>
+          </li>
+      </ul>
+      </div>
+      <form class="scpper-navbar-search" method="POST" role="search" action="/search">
         <div class="input-group">
-            <input type="text" name="search-text" id="search-text" class="form-control search-control ui-autocomplete-input" placeholder="Page or user..." value="" autocomplete="off">
-            <span class="input-group-btn">
-                <button type="submit" class="btn btn-default" aria-label="Go">
-                  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                </button>
-            </span>
+          <input type="text" name="search-text" id="search-text" class="form-control search-control ui-autocomplete-input" placeholder="Page or user..." value="" autocomplete="off">
+          <span class="input-group-btn">
+            <button type="submit" class="btn btn-default" aria-label="Go">
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </button>
+          </span>
         </div>
     </form>      
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
