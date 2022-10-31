@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>主页-TLB-DBpro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Le styles -->
+    <link href="/css/theme.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/js/date.format.js"></script>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="/js/tlb-database-pro.js"></script>
+    <script type="text/javascript">
+        (function () {
+        function init()
+        {   
+            // 准备搜索表单
+            tlbdbpro.search.siteId = 4803609;
+            tlbdbpro.search.registerSearchAutocomplete();
+            tlbdbpro.search.initSearchControl('.search-control');
+            // 将内容调整到顶部导航栏的高度
+            $(document).ready(function() {
+                var contentPlacement = $('.tlbdbpro-navbar').position().top + $('.tlbdbpro-navbar').height()+10;
+                $('body').css('margin-top', contentPlacement);
+            });
+        }
+          $(document).ready(init);
+        }()); 
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>
