@@ -1,8 +1,17 @@
 免责声明：TLB-DBpro系统的大部分代码来源于https://www.scpper.com/，同https://www.scpper.com/使用相同许可证（MIT许可证），
 本系统所备份的所有相关作品和文字均在TLB文学创作社区（时间轴书店 维基）创建，除非特别说明，否则都在CC BY-SA 4.0许可下获得.
 
-## 我们学习、借鉴并且修改、使用了ScpperDB的所有数据库，以下是授权信息和链接。
- # Copyright (c) 2016 Alexander Krivopalov - ScpperDB许可证（https://github.com/scpwiki/ScpperDB/blob/master/LICENSE.txt）
+## 我们学习、借鉴并修改、使用了ScpperDB的所有开源数据库信息，以下是授权信息和链接。
+## Copyright (c) 2016 Alexander Krivopalov - ScpperDB许可证（https://github.com/scpwiki/ScpperDB/blob/master/LICENSE.txt）
+The MIT License (MIT)
+Copyright (c) 2016 Alexander Krivopalov
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 ----
 MIT License
 
