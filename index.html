@@ -1,12 +1,14 @@
 <html lang="zh-cn">
   <head>
     <title>主页-TLB-DBpro</title>
+    <!-- meta元素设置 -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- CSS和Js设置 -->
     <link href="/css/theme.css" media="screen" rel="stylesheet" type="text/css">
     <link href="/css/style.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/js/main-data-updates.js"></script>
     <script type="text/javascript" src="/js/tlb-database-pro.js"></script>
   </head>
   <body style="margin-top: 60px;">
@@ -46,9 +48,39 @@
             <a href="TLB-DBpro/activity">变更</a>
           </li>
           <li>
-            <a href="TLB-DBpro/about">关于本站</a>
+            <a href="TLB-DBpro/about-site">关于本站</a>
           </li>
       </ul>
-      </div>   
+      </div>
+      <!-- 需要通过Js更新的部分（更新时间、成员、页面、修改、评分） -->
+      <div class="content-panel">
+        <span style="font-size: 125%">时间轴书店</span>
+        <div id="update-time-info"></div>
+      </div>
+      <div class="content-panel right-column">
+        <span style="font-size: 125%">成员</span>
+        <div id="member-info"></div>
+      </div>
+      <div class="content-panel left-column">
+        <span style="font-size: 125%">页面</span>
+        <div id="pages-info"></div>
+      </div>
+      <div class="content-panel right-column">
+        <span style="font-size: 125%">修改</span>
+        <div id="revisions-info"></div>
+      </div>
+      <div class="content-panel left-column">
+        <span style="font-size: 125%">评分</span>
+        <div id="votes-info"></div>
+      </div>
+      <div class="content-panel">
+        <a href="/TLB-DBpro/about-site" style="font-size: 110%">关于本站</a>
+      </div>
+      <br>
+      
+      <hr>
+      <div class="content-panel support-our-content-box">
+        喜欢TLB-DBpro吗？如果你愿意，可以在【平台】支持我们。
+      </div>
   </body>
 </html>
